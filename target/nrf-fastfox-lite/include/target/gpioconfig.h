@@ -13,7 +13,6 @@
 #define GPIO_LED1   4
 #define GPIO_LED2   6
 
-#define UART0_RTS_PIN   3
 #define UART0_TX_PIN    15
 #define UART0_RX_PIN    16
 

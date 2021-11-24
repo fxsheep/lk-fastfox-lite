@@ -25,9 +25,6 @@ void target_early_init(void) {
     gpio_set(GPIO_LED1,1);
     gpio_set(GPIO_LED2,1);
 
-    gpio_config(UART0_RTS_PIN, GPIO_OUTPUT);
-    gpio_set(UART0_RTS_PIN,0);              //placate flow control requirements of pca10000
-
     nrf51_debug_early_init();
 }
 
